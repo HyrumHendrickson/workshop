@@ -1,0 +1,19 @@
+project:
+  title: workshop  # or "book" / "default" depending on your project
+
+format:
+  html:
+    embed-resources: true  # example option
+
+# Set engine options
+engine:
+  knitr:
+    opts_chunk:
+      echo: true
+
+# Specify Python environment
+python: pyenv/bin/activate
+
+# Set R environment using renv
+r:
+  renv: true
