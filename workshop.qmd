@@ -1,7 +1,26 @@
 ---
-title: "workshop"
+title: "Workshop Document"
+format: html
+execute:
+  echo: true
+  warning: true
+  error: true
 ---
 
-## Quarto
+## R Code Chunk
 
-Quarto enables you to weave together content and executable code into a finished document. To learn more about Quarto see <https://quarto.org>.
+```{r}
+summary(cars)
+```
+
+## Python Code Chunk
+
+```{python}
+import numpy as np
+print("Mean of 1 to 10:", np.mean(np.arange(1, 11)))
+```
+
+## Markdown Section
+
+This is a **basic** Quarto document to test both R and Python integration.
+

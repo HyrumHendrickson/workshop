@@ -1,19 +1,13 @@
 project:
-  title: workshop  # or "book" / "default" depending on your project
+  type: website
 
 format:
   html:
-    embed-resources: true  # example option
+    theme: cosmo
 
-# Set engine options
-engine:
-  knitr:
-    opts_chunk:
-      echo: true
+# Python environment (path to python binary, not activate script)
+python: pyenv/bin/python
 
-# Specify Python environment
-python: pyenv/bin/activate
-
-# Set R environment using renv
+# Enable renv integration for R
 r:
   renv: true
